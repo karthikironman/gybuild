@@ -1,0 +1,51 @@
+{// This is comment line and will not appear in the report
+{//
+{// The following line sets the default format for floating point (real) numbers
+{// Note that the command has an exclamation mark after the bracket
+{// - This tells the report generator to exlcude the line from the report otherwise a line feed would be added
+{!format("float", "%0.1f")}
+This is a test report
+=====================
+       String: {value("string")}
+      Integer: {value("integer")}
+      Boolean: {value("boolean")}
+        Float: {value("float", "%0.2f")}
+
+Object.Value
+     Method 1: {value("object.value1", "%0.2f")}
+{!let(o = value("object"))}
+     Method 2: {value($o, "value1", "%0.2f")}
+
+Array Value
+       Item 0: {value("array[0]")}
+       Item 1: {value("array[1]")}
+       Item 2: {value("array[2]")}
+       Item 3: {value("array[3]")}
+       Item 4: {value("array[4]")}
+
+Test Array
+{value("containerArray[0].index")}
+{value("containerArray[1].index")}
+{value("containerArray.test")}
+
+ForEach test (array)
+{!foreach(item in value("containerArray"))}
+ Name: {value($item, "name")}
+Index: {value($item, "index")}
+Value: {value($item, "value")}
+{!next}
+
+ForEach test (object)
+{!foreach(item in value("containerObject"))}
+ Name: {value($item, "name")}
+Index: {value($item, "index")}
+Value: {value($item, "value")}
+{!next}
+
+ForEach test (simple array)
+{!foreach(item in value("array"))}
+Value: {$item}
+{!next}
+=====================
+End of report
+=====================

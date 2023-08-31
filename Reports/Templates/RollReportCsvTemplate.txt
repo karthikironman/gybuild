@@ -1,0 +1,25 @@
+"==========="
+"ROLL REPORT"
+"==========="
+""
+"Product:",{value("ProductName")},"Roll:",{value("Roll#")}
+""
+"Start Time:",{value("RollStartTime")},"Length (ft):",{value("RollFootage", "%0.2f")}
+"End Time:",{value("RollEndTime")},"Scrap (ft):",{value("Scrap", "%0.2f")}
+"Avg. Line Speed:",{value("AvgLineSpeed")}
+""
+{!foreach(index in value("MeasItems"))}
+"Measurement:","{value($index, "MeasName")}"
+"------------"
+"","High Alert:",{value($index, "HighWarning", "%0.1f")}
+"","Target:",{value($index, "Target", "%0.1f")}
+"","Low Alert:",{value($index, "LowWarning", "%0.2f")}
+"","Max:",{value($index, "MaxValue", "%0.2f")}
+"","Avg:",{value($index, "Average", "%0.2f")}
+"","Min:",{value($index, "MinValue","%0.2f")}
+"","3.0 Sigma:",{value($index, "Sigma", "%0.2f")}
+""
+{!next}
+"============="
+"END OF REPORT"
+"============="

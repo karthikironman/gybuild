@@ -1,0 +1,33 @@
+===========
+ROLL REPORT
+===========
+
+       Product: {value("ProductName")}          Roll: {value("Roll#")}
+
+     Start Time: {value("RollStartTime")}       Length (ft): {value("RollFootage", "%0.2f")}
+       End Time: {value("RollEndTime")}        Scrap (ft): {value("Scrap", "%0.2f")}
+Avg. Line Speed: {value("AvgLineSpeed")}
+
+Measurement: 1
+--------------
+         High Alert: {value("MeasItems[0].HighWarning", "%0.1f")}
+             Target: {value("MeasItems[0].Target", "%0.1f")}
+          Low Alert: {value("MeasItems[0].LowWarning", "%0.2f")}
+                Max: {value("MeasItems[0].MaxValue", "%0.2f")}
+                Avg: {value("MeasItems[0].Average", "%0.2f")}
+                Min: {value("MeasItems[0].MinValue","%0.2f")}
+          3.0 Sigma: {value("MeasItems[0].Sigma", "%0.2f")}
+
+Measurement: 2
+--------------
+         High Alert: {value("MeasItems[1].HighWarning", "%0.1f")}
+             Target: {value("MeasItems[1].Target", "%0.1f")}
+          Low Alert: {value("MeasItems[1].LowWarning", "%0.2f")}
+                Max: {value("MeasItems[1].MaxValue", "%0.2f")}
+                Avg: {value("MeasItems[1].Average", "%0.2f")}
+                Min: {value("MeasItems[1].MinValue","%0.2f")}
+          3.0 Sigma: {value("MeasItems[1].Sigma", "%0.2f")}
+
+=============
+END OF REPORT
+=============
