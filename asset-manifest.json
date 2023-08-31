@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e85f4711.css",
-    "main.js": "/static/js/main.f2753dab.js",
+    "main.css": "/static/css/main.249eb5e7.css",
+    "main.js": "/static/js/main.3be76265.js",
     "static/js/651.0a836937.chunk.js": "/static/js/651.0a836937.chunk.js",
     "static/media/background.png": "/static/media/background.1606c0b442dce003b9e4.png",
     "static/media/laneChart.png": "/static/media/laneChart.ae88457b1e906e8d3b0c.png",
@@ -11,18 +11,22 @@
     "static/media/scanner.png": "/static/media/scanner.4cbe81b5ef828558ae1b.png",
     "static/media/scannerView.png": "/static/media/scannerView.ac0a464536309af62aaf.png",
     "static/media/boxyScreen.png": "/static/media/boxyScreen.aa178e87f5e6b94fc8c4.png",
+    "static/media/basicdoc.jpg": "/static/media/basicdoc.dc30dcf62e3addfa3cc2.jpg",
     "static/media/nordson.png": "/static/media/nordson.c73d62501561b922f541.png",
     "static/media/settings2.png": "/static/media/settings2.94af2cdef7118574ffc6.png",
     "static/media/polarChart.png": "/static/media/polarChart.332cfda786b5770b9f01.png",
     "static/media/doughnutChart.png": "/static/media/doughnutChart.202f99be7ba65a8660b3.png",
+    "static/media/deleteIcon.png": "/static/media/deleteIcon.ea5c2f03783ec889d860.png",
     "static/media/scatterChart.png": "/static/media/scatterChart.adba4aa233884c4e0a95.png",
     "static/media/barChart.png": "/static/media/barChart.a526ee34d4ad8c5f3674.png",
     "static/media/edit.png": "/static/media/edit.2bb4bbea99166e2c936c.png",
     "static/media/recycle.png": "/static/media/recycle.8bc6319ccf6be0feef4d.png",
+    "static/media/grid.png": "/static/media/grid.3eb0e4ea89c5758ed193.png",
     "static/media/greenPlus.png": "/static/media/greenPlus.a0162b51b27dcf0fdaf5.png",
     "static/media/tableCharts.png": "/static/media/tableCharts.858764590416b65e9dd6.png",
     "static/media/editIcon.png": "/static/media/editIcon.ab1c118ce18ab386a830.png",
     "static/media/trash.png": "/static/media/trash.d224bbb1266417c08841.png",
+    "static/media/editIcons.png": "/static/media/editIcons.3a5719e61661a36f0f6b.png",
     "static/media/image.png": "/static/media/image.472461e65eb80f1adaae.png",
     "static/media/recipeCursor.svg": "/static/media/recipeCursor.7fca523bf7676aea05e45c86217a9a6f.svg",
     "static/media/lineChart.png": "/static/media/lineChart.371a2cffe8880b10a219.png",
@@ -44,12 +48,12 @@
     "static/media/tick.svg": "/static/media/tick.3901a7fee269607ad2ed9f39f78d9c3c.svg",
     "static/media/whiteX.svg": "/static/media/whiteX.72eef2720f426258d0cec2e936d64da5.svg",
     "static/media/blackX.svg": "/static/media/blackX.e6dffa4bbca60b3415e788bee3847921.svg",
-    "main.e85f4711.css.map": "/static/css/main.e85f4711.css.map",
-    "main.f2753dab.js.map": "/static/js/main.f2753dab.js.map",
+    "main.249eb5e7.css.map": "/static/css/main.249eb5e7.css.map",
+    "main.3be76265.js.map": "/static/js/main.3be76265.js.map",
     "651.0a836937.chunk.js.map": "/static/js/651.0a836937.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e85f4711.css",
-    "static/js/main.f2753dab.js"
+    "static/css/main.249eb5e7.css",
+    "static/js/main.3be76265.js"
   ]
 }
